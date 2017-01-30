@@ -36,9 +36,6 @@ namespace Codice.CmdRunner
             }
             catch (System.IO.IOException e)
             {
-                System.Console.WriteLine(
-                    "!!!!!CmdRunner capturing exception while closing shell. {0} {1}",
-                    e.Message, e.StackTrace);
             }
 
             if (runner.mCmdProc != null)
