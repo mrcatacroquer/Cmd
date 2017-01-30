@@ -30,13 +30,7 @@ namespace Codice.CmdRunner
             {
                 if (!IsWindows())
                 {
-                    // The first versions of the framework (1.0 and 1.1)
-                    // didn't include any PlatformID value for Unix,
-                    // so Mono used the value 128. The newer framework 2.0
-                    // added Unix to the PlatformID enum but,
-                    // sadly, with a different value: 4 and newer versions of
-                    // .NET distinguished between Unix and MacOS X,
-                    // introducing yet another value 6 for MacOS X.
+                    
 
                     System.Version v = Environment.Version;
                     int p = (int)Environment.OSVersion.Platform;

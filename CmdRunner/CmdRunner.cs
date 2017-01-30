@@ -17,9 +17,6 @@ namespace Codice.CmdRunner
         {
             if (bSetBotMode)
                 return;
-
-            // not use file communication,
-            // in linux crash the test
             runner.DontTimeout();
             runner.WorkWithoutFileCommunication();
             bSetBotMode = true;
