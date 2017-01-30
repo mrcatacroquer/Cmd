@@ -9,7 +9,7 @@ namespace Codice.CmdRunner
     {
         private const int DEFAULT_SPIN_TIME = 10 * 1000;
         private const int DEFAULT_MAX_WAIT_TIME = 8 * 60 * 1000;
-        private const int DEFAULT_MAX_WAIT_TIME_ALL = 30 * 60 * 1000;
+        private const int DEFAULT_MAX_WAIT_TIME_ALL = 30 * 60;
 
         private int mSpinTime = -1;
         private int mMaxWaitTime = -1;
