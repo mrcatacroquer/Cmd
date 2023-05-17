@@ -5,6 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdRunner", "CmdRunner\CmdR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdRunnerExample", "CmdRunnerExample\CmdRunnerExample.csproj", "{96343C99-F395-4C80-8E8D-AB03D96767FF}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
