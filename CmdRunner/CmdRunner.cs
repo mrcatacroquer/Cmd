@@ -5,6 +5,7 @@ namespace Codice.CmdRunner
 {
     public class CmdRunner
     {
+
         private static CodiceCmdRunner runner = new CodiceCmdRunner();
 
         public static void InitConsole(IConsoleWriter writer)
